@@ -12,7 +12,7 @@ const ProductCard = ({ product }) => {
   return (
     <div className="product-card">
       <div className="product-image-container">
-        <img src={`/images/${product.image}`} alt={product.name} className="product-image" />
+        <img src={`${import.meta.env.BASE_URL}images/${product.image}`} alt={product.name} className="product-image" />
         <div className="product-overlay">
           <button className="btn btn-primary add-to-cart-btn" onClick={handleAddToCart}>
             Add to Cart

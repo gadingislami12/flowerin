@@ -42,7 +42,7 @@ const Cart = () => {
                 <div className="cart-items">
                     {cartItems.map((item) => (
                         <div key={item.cart_id} className="cart-item">
-                            <img src={item.isCustom ? item.image : `/images/${item.image}`} alt={item.name} className="cart-item-img" />
+                            <img src={item.isCustom ? item.image : `${import.meta.env.BASE_URL}images/${item.image}`} alt={item.name} className="cart-item-img" />
                             <div className="cart-item-details">
                                 <h3>{item.name}</h3>
                                 <p className="item-price">Rp {Number(item.price).toLocaleString('id-ID')}</p>

@@ -1,7 +1,7 @@
 .hero {
   height: 80vh;
   min-height: 500px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/images/hero.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/flowerin/images/hero.png');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -49,13 +49,13 @@
   position: relative;
   overflow: hidden;
   cursor: pointer;
-  background-image: url('/images/rose.jpg'); /* placeholder */
+  background-image: url('/flowerin/images/rose.jpg'); /* placeholder */
   background-size: cover;
   background-position: center;
 }
 
-.category-card:nth-child(2) { background-image: url('/images/tulip.jpg'); }
-.category-card:nth-child(3) { background-image: url('/images/sunflower.jpg'); }
+.category-card:nth-child(2) { background-image: url('/flowerin/images/tulip.jpg'); }
+.category-card:nth-child(3) { background-image: url('/flowerin/images/sunflower.jpg'); }
 
 .category-overlay {
   position: absolute;
