@@ -1,0 +1,211 @@
+[
+  {
+    "id": 1,
+    "name": "Classic Red Roses",
+    "description": "Fresh and beautiful red roses bouquet.",
+    "price": 250000,
+    "image": "rose.jpg",
+    "category": "fresh-flower",
+    "occasion": "anniversary",
+    "is_new_arrival": true,
+    "stock": 10
+  },
+  {
+    "id": 2,
+    "name": "White Lilies",
+    "description": "Elegant white lilies for any occasion.",
+    "price": 300000,
+    "image": "tulip.jpg",
+    "category": "fresh-flower",
+    "occasion": "wedding",
+    "is_new_arrival": false,
+    "stock": 5
+  },
+  {
+    "id": 3,
+    "name": "Faux Peony Bouquet",
+    "description": "High quality artificial peony bouquet.",
+    "price": 200000,
+    "image": "rose.jpg",
+    "category": "artificial-flower",
+    "occasion": "wedding",
+    "is_new_arrival": false,
+    "stock": 15
+  },
+  {
+    "id": 4,
+    "name": "Artificial Tulip Mix",
+    "description": "Colorful artificial tulips that last forever.",
+    "price": 180000,
+    "image": "tulip.jpg",
+    "category": "artificial-flower",
+    "occasion": "birthday",
+    "is_new_arrival": true,
+    "stock": 20
+  },
+  {
+    "id": 5,
+    "name": "Pink Satin Roses",
+    "description": "Handcrafted pink roses made from premium satin.",
+    "price": 150000,
+    "image": "rose.jpg",
+    "category": "buket-satin",
+    "occasion": "valentine",
+    "is_new_arrival": false,
+    "stock": 12
+  },
+  {
+    "id": 6,
+    "name": "Blue Satin Bouquet",
+    "description": "Unique blue satin flower bouquet.",
+    "price": 160000,
+    "image": "tulip.jpg",
+    "category": "buket-satin",
+    "occasion": "anniversary",
+    "is_new_arrival": true,
+    "stock": 8
+  },
+  {
+    "id": 7,
+    "name": "Chocolate Delight",
+    "description": "A bouquet filled with premium chocolates.",
+    "price": 120000,
+    "image": "sunflower.jpg",
+    "category": "buket-snack",
+    "occasion": "birthday",
+    "is_new_arrival": false,
+    "stock": 25
+  },
+  {
+    "id": 8,
+    "name": "Snack Mix Bouquet",
+    "description": "Assorted savory snacks beautifully arranged.",
+    "price": 100000,
+    "image": "sunflower.jpg",
+    "category": "buket-snack",
+    "occasion": "graduation",
+    "is_new_arrival": false,
+    "stock": 30
+  },
+  {
+    "id": 9,
+    "name": "Money Bouquet 500k",
+    "description": "Beautiful bouquet containing IDR 500k.",
+    "price": 600000,
+    "image": "tulip.jpg",
+    "category": "buket-uang",
+    "occasion": "graduation",
+    "is_new_arrival": true,
+    "stock": 5
+  },
+  {
+    "id": 10,
+    "name": "Money Bouquet 1M",
+    "description": "Luxury money bouquet with IDR 1M.",
+    "price": 1150000,
+    "image": "rose.jpg",
+    "category": "buket-uang",
+    "occasion": "wedding",
+    "is_new_arrival": false,
+    "stock": 3
+  },
+  {
+    "id": 11,
+    "name": "Thesis Defense Bouquet",
+    "description": "Perfect paper flower bouquet for thesis defense.",
+    "price": 130000,
+    "image": "sunflower.jpg",
+    "category": "buket-kertas-skripsi",
+    "occasion": "graduation",
+    "is_new_arrival": false,
+    "stock": 10
+  },
+  {
+    "id": 12,
+    "name": "Origami Flower Mix",
+    "description": "Mixed origami flowers for celebration.",
+    "price": 140000,
+    "image": "tulip.jpg",
+    "category": "buket-kertas-skripsi",
+    "occasion": "graduation",
+    "is_new_arrival": true,
+    "stock": 15
+  },
+  {
+    "id": 13,
+    "name": "Premium Rose Box",
+    "description": "A box of premium fresh roses.",
+    "price": 350000,
+    "image": "rose.jpg",
+    "category": "flower-box",
+    "occasion": "anniversary",
+    "is_new_arrival": true,
+    "stock": 8
+  },
+  {
+    "id": 14,
+    "name": "Mixed Bloom Box",
+    "description": "Beautiful mixed blooms in an elegant box.",
+    "price": 320000,
+    "image": "tulip.jpg",
+    "category": "flower-box",
+    "occasion": "mothers-day",
+    "is_new_arrival": false,
+    "stock": 6
+  },
+  {
+    "id": 15,
+    "name": "Grand Opening Stand",
+    "description": "Large standing flower arrangement.",
+    "price": 800000,
+    "image": "sunflower.jpg",
+    "category": "standing-flower",
+    "occasion": "sympathy",
+    "is_new_arrival": false,
+    "stock": 4
+  },
+  {
+    "id": 16,
+    "name": "Wedding Stand Flower",
+    "description": "Elegant standing flowers for weddings.",
+    "price": 1000000,
+    "image": "rose.jpg",
+    "category": "standing-flower",
+    "occasion": "wedding",
+    "is_new_arrival": true,
+    "stock": 2
+  },
+  {
+    "id": 17,
+    "name": "White Condolence Stand",
+    "description": "Respectful white flowers for sympathy.",
+    "price": 750000,
+    "image": "tulip.jpg",
+    "category": "standing-flower",
+    "occasion": "sympathy",
+    "is_new_arrival": false,
+    "stock": 5
+  },
+  {
+    "id": 18,
+    "name": "Mom Special Bouquet",
+    "description": "Specially curated for mothers.",
+    "price": 280000,
+    "image": "rose.jpg",
+    "category": "fresh-flower",
+    "occasion": "mothers-day",
+    "is_new_arrival": true,
+    "stock": 10
+  },
+  {
+    "id": 19,
+    "name": "Valentine Red Roses",
+    "description": "Ultimate romantic red roses for valentine.",
+    "price": 400000,
+    "image": "rose.jpg",
+    "category": "fresh-flower",
+    "occasion": "valentine",
+    "is_new_arrival": true,
+    "stock": 15
+  }
+]
