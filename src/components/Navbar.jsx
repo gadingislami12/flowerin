@@ -131,6 +131,21 @@ const Navbar = () => {
           <button className="drawer-close-btn" onClick={() => setMobileMenuOpen(false)}>&times;</button>
         </div>
         <div className="drawer-content">
+          <form className="drawer-search-form" onSubmit={handleSearch} style={{ padding: '15px 20px', borderBottom: '1px solid var(--border-color)' }}>
+            <div className="search-form" style={{ width: '100%' }}>
+              <input
+                type="text"
+                placeholder="Search products..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="search-input"
+                style={{ width: '100%', flex: 1, padding: '8px 12px' }}
+              />
+              <button type="submit" className="search-button">
+                <Search size={18} />
+              </button>
+            </div>
+          </form>
           <Link to="/new-arrivals" className="drawer-link" onClick={() => setMobileMenuOpen(false)}>New Arrivals</Link>
           
           <div className="drawer-accordion">

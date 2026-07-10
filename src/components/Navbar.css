@@ -139,30 +139,33 @@
     cursor: pointer;
   }
   .navbar-top-container {
-    flex-wrap: wrap;
-    gap: 15px;
+    flex-wrap: nowrap;
+    gap: 10px;
+  }
+  .navbar-top .search-form {
+    display: none;
   }
   .nav-logo h1 {
-    font-size: 32px;
-  }
-  .search-input {
-    width: 100px;
-  }
-  .search-input:focus {
-    width: 120px;
+    font-size: 28px;
+    letter-spacing: 1px;
   }
   .nav-top-left {
     order: 1;
-    flex: 0;
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
   }
   .nav-logo {
     order: 2;
-    flex: 1;
+    flex: 2;
     text-align: center;
   }
   .nav-right {
     order: 3;
-    flex: 0;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 0;
   }
 }
 
