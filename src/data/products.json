@@ -26,7 +26,7 @@
     "name": "Faux Peony Bouquet",
     "description": "High quality artificial peony bouquet.",
     "price": 200000,
-    "image": "rose.jpg",
+    "image": "artificial-flower/peony.jpg",
     "category": "artificial-flower",
     "occasion": "wedding",
     "is_new_arrival": false,
