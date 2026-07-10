@@ -30,22 +30,17 @@ Flowerin is a premium, responsive static floral e-commerce catalog built with Re
 
 ## Local Development 🚀
 
-1. Navigate to the project directory:
-   ```bash
-   cd frontend
-   ```
-
-2. Install dependencies:
+1. Install dependencies:
    ```bash
    npm install
    ```
 
-3. Run the development server:
+2. Run the development server:
    ```bash
    npm run dev
    ```
 
-4. Open your browser at the displayed port (default is `http://localhost:5173` or `http://localhost:5174`).
+3. Open your browser at the displayed port (default is `http://localhost:5173` or `http://localhost:5174`).
 
 ## Production Build & Deployment 🌐
 
