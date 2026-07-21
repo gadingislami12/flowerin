@@ -151,7 +151,7 @@ const Navbar = () => {
           
           <div className="drawer-accordion">
             <button className="drawer-accordion-btn" onClick={() => toggleAccordion('flower')}>
-              Mini Flower {activeAccordion === 'flower' ? '−' : '+'}
+              Flower {activeAccordion === 'flower' ? '−' : '+'}
             </button>
             <div className={`drawer-accordion-content ${activeAccordion === 'flower' ? 'show' : ''}`}>
               <Link to="/shop?category=special-edition" onClick={() => setMobileMenuOpen(false)}>Special Edition</Link>
