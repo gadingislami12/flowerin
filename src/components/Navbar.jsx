@@ -69,12 +69,13 @@ const Navbar = () => {
             <div className="dropdown">
               <span className="dropdown-title">Flower</span>
               <div className="dropdown-content">
-                <Link to="/shop?category=fresh-flower">Fresh Flower</Link>
-                <Link to="/shop?category=artificial-flower">Artificial Flower</Link>
+                <Link to="/shop?category=special-edition">Special Edition</Link>
                 <Link to="/shop?category=buket-satin">Buket Satin</Link>
                 <Link to="/shop?category=buket-snack">Buket Snack</Link>
                 <Link to="/shop?category=buket-uang">Buket Uang</Link>
                 <Link to="/shop?category=buket-kertas-skripsi">Buket Kertas Skripsi</Link>
+                <Link to="/shop?category=fresh-flower">Fresh Flower</Link>
+                <Link to="/shop?category=artificial-flower">Artificial Flower</Link>
                 <Link to="/shop?category=flower-box">Flower Box</Link>
                 <Link to="/shop?category=standing-flower">Standing Flower</Link>
               </div>
@@ -150,15 +151,16 @@ const Navbar = () => {
           
           <div className="drawer-accordion">
             <button className="drawer-accordion-btn" onClick={() => toggleAccordion('flower')}>
-              Flower {activeAccordion === 'flower' ? '−' : '+'}
+              Mini Flower {activeAccordion === 'flower' ? '−' : '+'}
             </button>
             <div className={`drawer-accordion-content ${activeAccordion === 'flower' ? 'show' : ''}`}>
-              <Link to="/shop?category=fresh-flower" onClick={() => setMobileMenuOpen(false)}>Fresh Flower</Link>
-              <Link to="/shop?category=artificial-flower" onClick={() => setMobileMenuOpen(false)}>Artificial Flower</Link>
+              <Link to="/shop?category=special-edition" onClick={() => setMobileMenuOpen(false)}>Special Edition</Link>
               <Link to="/shop?category=buket-satin" onClick={() => setMobileMenuOpen(false)}>Buket Satin</Link>
               <Link to="/shop?category=buket-snack" onClick={() => setMobileMenuOpen(false)}>Buket Snack</Link>
               <Link to="/shop?category=buket-uang" onClick={() => setMobileMenuOpen(false)}>Buket Uang</Link>
               <Link to="/shop?category=buket-kertas-skripsi" onClick={() => setMobileMenuOpen(false)}>Buket Kertas Skripsi</Link>
+              <Link to="/shop?category=fresh-flower" onClick={() => setMobileMenuOpen(false)}>Fresh Flower</Link>
+              <Link to="/shop?category=artificial-flower" onClick={() => setMobileMenuOpen(false)}>Artificial Flower</Link>
               <Link to="/shop?category=flower-box" onClick={() => setMobileMenuOpen(false)}>Flower Box</Link>
               <Link to="/shop?category=standing-flower" onClick={() => setMobileMenuOpen(false)}>Standing Flower</Link>
             </div>

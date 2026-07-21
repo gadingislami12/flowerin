@@ -4,6 +4,13 @@ import productsData from '../data/products.json';
 import ProductCard from '../components/ProductCard';
 import './Shop.css';
 
+const unavailableCategories = [
+  'fresh-flower',
+  'artificial-flower',
+  'flower-box',
+  'standing-flower',
+];
+
 const Shop = () => {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -19,9 +26,18 @@ const Shop = () => {
     let filtered = [...productsData];
 
     if (location.pathname === '/new-arrivals') {
-      filtered = filtered.filter(p => p.is_new_arrival);
+      filtered = filtered
+        .filter(p => p.is_new_arrival)
+        .sort((firstProduct, secondProduct) => {
+          const firstIsSpecialEdition = firstProduct.category === 'special-edition';
+          const secondIsSpecialEdition = secondProduct.category === 'special-edition';
+
+          return Number(secondIsSpecialEdition) - Number(firstIsSpecialEdition);
+        });
     }
-    if (category) {
+    if (category && unavailableCategories.includes(category)) {
+      filtered = [];
+    } else if (category) {
       filtered = filtered.filter(p => p.category === category);
     }
     if (occasion) {
@@ -64,6 +80,9 @@ const Shop = () => {
     return 'All Products';
   };
 
+  const selectedCategory = new URLSearchParams(location.search).get('category');
+  const isUnavailableCategory = unavailableCategories.includes(selectedCategory);
+
   return (
     <div className="shop-page container animate-fade-in">
       <div className="shop-header">
@@ -79,7 +98,11 @@ const Shop = () => {
               <ProductCard key={product.id} product={product} />
             ))
           ) : (
-            <div className="no-products text-center">No products found matching your filter.</div>
+            <div className="no-products text-center">
+              {isUnavailableCategory
+                ? 'Produk belum tersedia saat ini.'
+                : 'No products found matching your filter.'}
+            </div>
           )}
         </div>
       )}

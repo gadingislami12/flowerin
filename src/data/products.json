@@ -1,5 +1,38 @@
 [
   {
+    "id": 20,
+    "name": "Special Edition Rose",
+    "description": "A limited mini flower arrangement created for special moments.",
+    "price": 275000,
+    "image": "rose.jpg",
+    "category": "special-edition",
+    "occasion": "anniversary",
+    "is_new_arrival": true,
+    "stock": 8
+  },
+  {
+    "id": 21,
+    "name": "Special Edition Tulip",
+    "description": "An exclusive mini tulip arrangement with an elegant finish.",
+    "price": 290000,
+    "image": "tulip.jpg",
+    "category": "special-edition",
+    "occasion": "birthday",
+    "is_new_arrival": true,
+    "stock": 6
+  },
+  {
+    "id": 22,
+    "name": "Special Edition Sunflower",
+    "description": "A cheerful limited-edition mini sunflower arrangement.",
+    "price": 260000,
+    "image": "sunflower.jpg",
+    "category": "special-edition",
+    "occasion": "graduation",
+    "is_new_arrival": true,
+    "stock": 10
+  },
+  {
     "id": 1,
     "name": "Classic Red Roses",
     "description": "Fresh and beautiful red roses bouquet.",
